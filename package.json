@@ -8,7 +8,7 @@
     "serve": "budo src/index.js:build/bundle.js --live -- -t babelify"
   },
   "author": "p1ch_jp",
-  "license": "MIT",
+  "license": "NYSL",
   "dependencies": {
     "phina.js": "*"
   },

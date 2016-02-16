@@ -1,4 +1,5 @@
 # phina-starter
+
 A starter kit for phina.js  
 Can use phina.js, es6, local-server (live-reload).
 
@@ -37,3 +38,7 @@ Note: watchfy will compile `./src/index.js` to `./build/bundle.js`. HTML is to i
 　　 　＼/＿＿＿/￣￣
 
 ```
+
+## LICENSE
+
+NYSL. See LICENSE file.
