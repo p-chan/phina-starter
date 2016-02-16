@@ -1,7 +1,7 @@
 {
-  "name": "hello-phina-js",
+  "name": "phina-starter",
   "version": "1.0.0",
-  "description": "",
+  "description": "A starter kit for phina.js",
   "scripts": {
     "start": "npm run build & npm run serve",
     "build": "watchify src/index.js -t babelify -o build/bundle.js -v",
@@ -10,7 +10,7 @@
   "author": "p1ch_jp",
   "license": "MIT",
   "dependencies": {
-    "phina.js": "^0.1.2"
+    "phina.js": "*"
   },
   "devDependencies": {
     "babelify": "^7.2.0",
