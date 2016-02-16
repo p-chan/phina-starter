@@ -1,44 +1,46 @@
 # phina-starter
 
-A starter kit for phina.js  
-Can use phina.js, es6, local-server (live-reload).
+> A starter kit for phina.js
+
+**fatures**
+
+- phina.js / game library
+- watchify / auto compile
+- babelify / can use es6
+- budo / build a dev-server with live-reload
+
+This isn't use task runner, So it's simple.
 
 ## Usage
-
-### 1. Install the dependencies
-
-Install phina.js, watchify, babelify, budo (Maybe, and more).
-
-```
-$ npm install
-```
-
-### 2. Run npm script
 
 Setup is very simple.  
 After run this command, You can development right away.
 
 ```
+$ npm install
 $ npm run start
 ```
 
-Note: watchfy will compile `./src/index.js` to `./build/bundle.js`. HTML is to import it.
+Note: watchify will compile `./src/index.js` to `./build/bundle.js`. HTML is to import it.
 
-### 3. You create awesome game!!
+## Let's create!!
 
 ```
  _______________________
 | http://localhost:9966 |
  ‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾
 
- BANBANBANBANBANBAN
- BAN　　　　 BANBANBA
- BAN (∩`･ω･)　BANBAN
-　 ＿/_ﾐつ/￣￣￣/
-　　 　＼/＿＿＿/￣￣
+　 ﾊﾞﾝ　　　はよ
+ﾊﾞﾝ (∩`･ω･) ﾊﾞﾝ はよ
+　　/ ﾐつ/￣￣￣/
+　￣￣＼/＿＿＿/
 
 ```
 
 ## LICENSE
 
 NYSL. See LICENSE file.
+
+## Author
+
+[@p1ch_jp](https://twitter.com/p1ch_jp)
