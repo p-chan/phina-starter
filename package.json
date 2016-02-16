@@ -2,10 +2,19 @@
   "name": "hello-phina-js",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "npm run build & npm run serve",
+    "build": "watchify src/index.js -t babelify -o build/bundle.js -v",
+    "serve": "budo src/index.js:build/bundle.js --live -- -t babelify"
   },
   "author": "p1ch_jp",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "phina.js": "^0.1.2"
+  },
+  "devDependencies": {
+    "babelify": "^7.2.0",
+    "budo": "^8.0.4",
+    "watchify": "^3.7.0"
+  }
 }
